@@ -11,8 +11,8 @@ This notify property class can make it easier for you to create NotifyProperty v
       -> StudentID.SetValue("Lisa");
 
     in xaml:
-    tips: don't forget the "Value" in xaml binding.
     
-    \<TextBlock Text={Binding StudentID.Value} /\>
+    <TextBlock Text={Binding StudentID.Value} />
+    tips: don't forget the "Value" in xaml binding.
     
     that's all. enjoy it!

@@ -7,11 +7,14 @@ This notify property class can make it easier for you to create NotifyProperty v
     public NotifyPropertyEx<string> StudentID { get; } = string.Empty;
   
     how to set value?
+      ```c#
       -> StudentID.Value = "Lisa";
       -> StudentID.SetValue("Lisa");
-  
+      ```
     in xaml:
-    --tips: don't forget the "Value" in xaml binding.
+    
+    tips: don't forget the "Value" in xaml binding.
+    ```xml
     <TextBlock Text={Binding StudentID.Value} />
-  
+    ```
     that's all. enjoy it!
